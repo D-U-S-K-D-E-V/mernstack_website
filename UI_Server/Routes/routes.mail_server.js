@@ -1,0 +1,1 @@
+export const postMailRoute = `http://localhost:2000/mail/send`;

@@ -1,0 +1,27 @@
+.buttonContainer{
+    position: relative;
+    margin-top: 1rem;
+}
+
+.sliderItem{
+    width: 100%;
+    flex: none;
+    scroll-snap-align: start;
+}
+.sliderItemContainer{
+    display:flex;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+.backButtonContainer{
+    position:absolute;
+}
+.forwardButtonContainer{
+    position:absolute;
+    right: 0rem;
+}
+.sliderContainer{
+    margin-top: 2rem;
+    margin-bottom: 7rem;
+}

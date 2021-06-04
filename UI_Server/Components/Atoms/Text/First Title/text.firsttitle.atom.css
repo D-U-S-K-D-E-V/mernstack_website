@@ -1,0 +1,43 @@
+@font-face {
+  font-family: Nunito-ExtraLight;
+  src: url(../../../../Resources/Fonts/Nunito_Sans/NunitoSans-ExtraLight.ttf);
+}
+
+@font-face {
+  font-family: Nunito-Light;
+  src: url(../../../../Resources/Fonts/Nunito_Sans/NunitoSans-Light.ttf);
+}
+
+@font-face {
+  font-family: Nunito-Regular;
+  src: url(../../../../Resources/Fonts/Nunito_Sans/NunitoSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: Nunito-SemiBold;
+  src: url(../../../../Resources/Fonts/Nunito_Sans/NunitoSans-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: Extra-Bold;
+  src: url(../../../../Resources/Fonts/Nunito_Sans/NunitoSans-ExtraBold.ttf);
+}
+
+.firstTitle {
+  font-family: Nunito-Light;
+  text-transform: uppercase;
+  letter-spacing: 0.75rem;
+  color: black;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  overflow-wrap: break-word;
+}
+
+@media only screen and (min-width: 2560px) {
+  .firstTitle {
+    font-size: 3.1rem;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+}
+/*# sourceMappingURL=text.firsttitle.atom.css.map */

@@ -1,0 +1,21 @@
+.mainBanner {
+  /*Content*/
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media only screen and (min-width: 320px) {
+  .mainBanner {
+    /*Content*/
+    height: 32rem;
+  }
+}
+
+@media only screen and (min-width: 2560px) {
+  .mainBanner {
+    /*Content*/
+    height: 48rem;
+  }
+}
+/*# sourceMappingURL=media.mainbanner.atom.css.map */

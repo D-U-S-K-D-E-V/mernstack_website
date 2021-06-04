@@ -1,0 +1,41 @@
+/*Open Sans*/
+@font-face {
+  font-family: OpenSans-Light;
+  src: url(../../../../Resources/Fonts/Open_Sans/OpenSans-Light.ttf);
+}
+
+@font-face {
+  font-family: OpenSans-Regular;
+  src: url(../../../../Resources/Fonts/Open_Sans/OpenSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: OpenSans-SemiBold;
+  src: url(../../../../Resources/Fonts/Open_Sans/OpenSans-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: OpenSans-Bold;
+  src: url(../../../../Resources/Fonts/Open_Sans/OpenSans-Bold.ttf);
+}
+
+@font-face {
+  font-family: OpenSans-ExtraBold;
+  src: url(../../../../Resources/Fonts/Open_Sans/OpenSans-ExtraBold.ttf);
+}
+
+.paragraph {
+  font-family: OpenSans-Regular;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  overflow-wrap: break-word;
+}
+
+@media only screen and (min-width: 2560px) {
+  .paragraph {
+    font-size: 1.5rem;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+}
+/*# sourceMappingURL=text.paragraph.atom.css.map */

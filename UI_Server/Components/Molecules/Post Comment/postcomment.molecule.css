@@ -1,0 +1,45 @@
+.commentContainer {
+  border: solid;
+  border-color: lightgray;
+  border-width: 1px;
+  border-radius: 2rem;
+  margin-top: 1rem;
+}
+
+.userContainer {
+  margin-top: 1rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
+.dateContainer {
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
+.bodyContainer {
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
+.inputContainer {
+  margin-bottom: 1rem;
+  margin-right: 3rem;
+  margin-left: 3rem;
+}
+
+.inputElem {
+  display: inline-block;
+}
+
+.replyButtonElem {
+  margin-left: 0.5rem;
+  display: inline-block;
+}
+
+@media only screen and (min-width: 320px) {
+  .inputElem {
+    width: 80%;
+  }
+}
+/*# sourceMappingURL=postcomment.molecule.css.map */

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,gBAAgB,CAAA;EACZ,MAAM,EAAE,KAAK;CAChB;;AACD,AAAA,eAAe,CAAA;EACX,WAAW,EAAE,IAAI;CACpB",
+    "sources": [
+        "banner.molecule.scss"
+    ],
+    "names": [],
+    "file": "banner.molecule.css"
+}

@@ -1,0 +1,74 @@
+.newsBannerContainer {
+  position: relative;
+}
+
+.mainBannerContainer {
+  position: absolute;
+  width: 100%;
+}
+
+.bannerContainer {
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: black;
+}
+
+@media only screen and (min-width: 320px) {
+  .newsBannerContainer {
+    height: 35rem;
+  }
+  .bannerContainer {
+    width: 100%;
+    padding-left: 1rem;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    top: 17rem;
+  }
+}
+
+@media only screen and (min-width: 375px) {
+  .bannerContainer {
+    top: 18rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .bannerContainer {
+    padding-left: 3rem;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    background-color: transparent;
+    width: 75%;
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.8)), to(rgba(255, 255, 255, 0)));
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0));
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .bannerContainer {
+    padding-left: 5rem;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .bannerContainer {
+    padding-left: 18rem;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+}
+
+@media only screen and (min-width: 2560px) {
+  .bannerContainer {
+    padding-left: 40rem;
+    top: 34rem;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  .newsBannerContainer {
+    height: 50rem;
+  }
+}
+/*# sourceMappingURL=newsbanner.organism.css.map */

@@ -1,0 +1,42 @@
+.postBanner{
+    transition: 0.4s;
+    width: 100%;
+    border-radius: 3rem;
+    object-fit: cover;
+}
+
+@media only screen and (min-width: 320px){
+    .postBanner{
+        height: 20rem;
+    }
+}
+
+@media only screen and (min-width: 375px){
+
+}
+
+@media only screen and (min-width: 425px){
+
+}
+
+@media only screen and (min-width: 768px){
+    .postBanner{
+        height: 30rem;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+
+}
+
+@media only screen and (min-width: 1440px){
+    .postBanner{
+        height: 40rem;
+    }
+}
+
+@media only screen and (min-width: 2560px){
+    .postBanner{
+        height: 50rem;
+    }
+}

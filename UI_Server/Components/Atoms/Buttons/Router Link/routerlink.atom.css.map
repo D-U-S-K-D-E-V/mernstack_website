@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,KAAK,EAAE,KAAK,AAAA,MAAM,EAAE,KAAK,AAAA,QAAQ,CAAA;EAC7B,KAAK,EAAE,OAAwB;EAC/B,eAAe,EAAE,IAAI;CACxB;;AACD,AAAA,cAAc,CAAA;EACV,MAAM,EAAE,OAAO;EACf,UAAU,EAAE,IAAI;EAChB,mBAAmB,EAAE,KAAK;EAC1B,mBAAmB,EAAE,KAAK;EAC1B,mBAAmB,EAAE,GAAG;CAC3B;;AAED,AAAA,cAAc,AAAA,MAAM,CAAA;EAChB,UAAU,EAAE,IAAI;EAChB,mBAAmB,EAAE,OAAwB;CAChD",
+    "sources": [
+        "routerlink.atom.scss"
+    ],
+    "names": [],
+    "file": "routerlink.atom.css"
+}

@@ -1,0 +1,24 @@
+.buttonElem {
+  position: absolute;
+  top: 15%;
+  left: 16%;
+}
+
+.buttonContainer {
+  color: black;
+  background-color: white;
+  position: relative;
+  height: 3rem;
+  width: 3rem;
+  text-align: center;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+
+.buttonContainer:hover {
+  color: white;
+  background-color: black;
+}
+/*# sourceMappingURL=button.reddit.atom.css.map */

@@ -1,0 +1,41 @@
+.loginFormContainer {
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  margin-top: 3rem;
+}
+
+@media only screen and (min-width: 320px) {
+  .loginFormContainer {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .loginFormContainer {
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .loginFormContainer {
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .loginFormContainer {
+    margin-left: 18rem;
+    margin-right: 18rem;
+  }
+}
+
+@media only screen and (min-width: 2560px) {
+  .loginFormContainer {
+    margin-left: 40rem;
+    margin-right: 40rem;
+  }
+}
+/*# sourceMappingURL=loginform.organism.css.map */

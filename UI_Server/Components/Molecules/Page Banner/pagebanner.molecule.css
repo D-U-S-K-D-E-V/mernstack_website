@@ -1,0 +1,51 @@
+.pageBannerContainer {
+  position: relative;
+}
+
+.pageTitleContainer {
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  position: absolute;
+  width: 100%;
+  height: 5rem;
+  padding-top: 1rem;
+  line-height: 2.5rem;
+  bottom: 0rem;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+@media only screen and (min-width: 320px) {
+  .pageTitleContainer {
+    padding-left: 1rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .pageTitleContainer {
+    padding-left: 3rem;
+    background-color: rgba(255, 255, 255, 0);
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.8)), to(rgba(255, 255, 255, 0)));
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0));
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .pageTitleContainer {
+    padding-left: 5rem;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .pageTitleContainer {
+    padding-left: 18rem;
+  }
+}
+
+@media only screen and (min-width: 2560px) {
+  .pageTitleContainer {
+    padding-left: 40rem;
+    padding-bottom: 1rem;
+    bottom: 0rem;
+  }
+}
+/*# sourceMappingURL=pagebanner.molecule.css.map */

@@ -1,0 +1,123 @@
+.postDataContainer {
+  width: 100%;
+  margin-top: 3rem;
+}
+
+.postContentContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 10;
+      -ms-flex-positive: 10;
+          flex-grow: 10;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  overflow-x: hidden;
+  -ms-scroll-snap-type: x mandatory;
+      scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+}
+
+.sliderItem {
+  scroll-snap-align: start;
+}
+
+.dataDisplayContainer {
+  position: relative;
+  width: 20rem;
+  scroll-snap-align: start;
+}
+
+.textDataContainer {
+  margin-bottom: 16rem;
+}
+
+.imageContainer {
+  position: absolute;
+  bottom: 0rem;
+}
+
+.postLink {
+  word-wrap: break-word;
+}
+
+.linkContainer {
+  word-wrap: break-word;
+}
+
+.buttonContainer {
+  position: relative;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 1rem;
+}
+
+.forwardContainer {
+  position: absolute;
+  display: block;
+  right: 0rem;
+}
+
+.backContainer {
+  position: absolute;
+  display: block;
+}
+
+@media only screen and (min-width: 320px) {
+  .postsContainer {
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .dataDisplayContainer {
+    margin-right: 2rem;
+  }
+}
+
+@media only screen and (min-width: 425px) {
+  .dataDisplayContainer {
+    margin-right: 5rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .postsContainer {
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .postsContainer {
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .postsContainer {
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    margin-left: 18rem;
+    margin-right: 18rem;
+  }
+  .dataDisplayContainer {
+    margin-right: 8rem;
+  }
+}
+
+@media only screen and (min-width: 2560px) {
+  .postsContainer {
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    margin-left: 40rem;
+    margin-right: 40rem;
+  }
+}
+/*# sourceMappingURL=posts.molecule.css.map */

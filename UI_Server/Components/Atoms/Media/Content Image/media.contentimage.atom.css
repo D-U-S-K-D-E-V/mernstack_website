@@ -1,0 +1,8 @@
+.imageElem {
+  width: 18rem;
+  height: 15rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 3rem;
+}
+/*# sourceMappingURL=media.contentimage.atom.css.map */

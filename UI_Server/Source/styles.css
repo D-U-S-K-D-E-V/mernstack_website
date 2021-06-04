@@ -1,0 +1,27 @@
+.app {
+  /*Boxes*/
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.navBarContainer {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.contentConatiner {
+  z-index: -1;
+}
+
+.noteClass {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/*# sourceMappingURL=styles.css.map */

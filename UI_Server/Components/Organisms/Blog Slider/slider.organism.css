@@ -1,0 +1,39 @@
+.buttonContainer {
+  position: relative;
+  margin-top: 1rem;
+}
+
+.sliderItem {
+  scroll-snap-align: start;
+}
+
+.sliderItemContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-scroll-snap-type: x mandatory;
+      scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+.backButtonContainer {
+  position: absolute;
+}
+
+.forwardButtonContainer {
+  position: absolute;
+  right: 0rem;
+}
+
+.sliderContainer {
+  margin-top: 2rem;
+  margin-bottom: 7rem;
+}
+
+@media only screen and (min-width: 2560px) {
+  .errorHandleContainer {
+    height: 30rem;
+  }
+}
+/*# sourceMappingURL=slider.organism.css.map */

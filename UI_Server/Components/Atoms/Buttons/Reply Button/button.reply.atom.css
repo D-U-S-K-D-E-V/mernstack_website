@@ -1,0 +1,22 @@
+.replyButtonContainer {
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  display: inline-block;
+  padding-left: 0.3rem;
+  padding-right: 0.3rem;
+  border-radius: 3rem;
+  color: white;
+  background-color: black;
+  border: solid;
+  border-width: 1px;
+  border-color: black;
+  cursor: pointer;
+}
+
+.replyButtonContainer:hover {
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  color: black;
+  background-color: white;
+}
+/*# sourceMappingURL=button.reply.atom.css.map */

@@ -1,0 +1,21 @@
+.buttonElem{
+    position: absolute;
+    top: 18%;
+    left: 20%;
+}
+
+.buttonContainer{
+    color: black;
+    background-color: white;
+    position: relative;
+    height: 3rem;
+    width: 3rem;
+    text-align: center;
+    transition: 0.4s;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+.buttonContainer:hover{
+    color: white;
+    background-color: black;
+}

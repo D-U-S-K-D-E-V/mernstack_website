@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,qBAAqB,CAAA;EACjB,UAAU,EAAE,IAAI;CACnB;;AAED,AAAA,mBAAmB,CAAA;EACf,UAAU,EAAE,IAAI;CACnB;;AAED,AAAA,oBAAoB,CAAA;EAChB,aAAa,EAAE,IAAI;CACtB",
+    "sources": [
+        "image_selection.molecule.scss"
+    ],
+    "names": [],
+    "file": "image_selection.molecule.css"
+}

@@ -1,0 +1,39 @@
+/*Open Sans*/
+@font-face {
+  font-family: OpenSans-Light;
+  src: url(../../../../Resources/Fonts/Open_Sans/OpenSans-Light.ttf);
+}
+
+@font-face {
+  font-family: OpenSans-Regular;
+  src: url(../../../../Resources/Fonts/Open_Sans/OpenSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: OpenSans-SemiBold;
+  src: url(../../../../Resources/Fonts/Open_Sans/OpenSans-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: OpenSans-Bold;
+  src: url(../../../../Resources/Fonts/Open_Sans/OpenSans-Bold.ttf);
+}
+
+@font-face {
+  font-family: OpenSans-ExtraBold;
+  src: url(../../../../Resources/Fonts/Open_Sans/OpenSans-ExtraBold.ttf);
+}
+
+.labelElem {
+  font-family: OpenSans-Regular;
+  text-transform: uppercase;
+  letter-spacing: 0.25rem;
+  font-size: 1rem;
+  color: black;
+  overflow-wrap: break-word;
+}
+
+.labelContainer {
+  margin-bottom: 0.25rem;
+}
+/*# sourceMappingURL=text.label.atom.css.map */

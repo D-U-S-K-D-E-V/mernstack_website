@@ -1,0 +1,112 @@
+.navBarMoleculeContainer{
+    position: relative;
+    height: 3rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-bottom: 0.5rem;
+    background-color: white;
+}
+
+.topBarContainer{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: stretch;
+}
+
+.navListContainerClosed{
+    position: absolute;
+    overflow: hidden;
+    transition: 0.4s;
+    top: 0rem;
+    right: 0rem;
+    width: 0%;
+    padding-bottom: 100%;
+    padding-top: 3rem;
+    z-index: 1;
+    background-color: black;
+}
+
+.navListContainerOpen{
+    transition: 0.4s;
+    position: absolute;
+    padding-bottom: 100%;
+    padding-top: 3rem;
+    padding-left: 1.3rem;
+    top: 0rem;
+    right: 0rem;
+    z-index: 2;
+    background-color: black;
+}
+
+.hamburgerContainerOpen{
+    margin-top: 0.2rem;
+    margin-right: 1rem;
+    padding: 0.5rem;
+    cursor: pointer;
+    z-index: 3;
+}
+
+.hamburgerContainerClosed{
+    margin-top: 0.2rem;
+    margin-right: 1rem;
+    padding: 0.5rem;
+    cursor: pointer;
+    z-index: 3;
+}
+
+@media only screen and (min-width: 320px){
+    .navListContainerOpen{
+        width: 100%;
+    }
+    .logoContainerClosed{
+        flex-grow: 10;
+        margin-left: 1rem;
+        z-index: 3;
+        transition: 0.4s;
+    }
+    .logoContainerOpen{
+        flex-grow: 10;
+        margin-left: 1rem;
+        z-index: 3;
+        transition: 0.4s;
+    }
+}
+
+@media only screen and (min-width: 375px){
+
+}
+
+@media only screen and (min-width: 425px){
+
+}
+
+@media only screen and (min-width: 768px){
+    .logoContainerOpen{
+        margin-left: 1.2rem;
+    }
+    .logoContainerClosed{
+        margin-left: 1.2rem;
+    }
+    .hamburgerContainer{
+        margin-right: 1.2rem;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+    .navListContainerOpen{
+        width: 20rem;
+    }
+    .logoContainerOpen{
+        color: black;
+    }
+}
+
+@media only screen and (min-width: 1440px){
+    
+}
+
+@media only screen and (min-width: 2560px){
+
+}

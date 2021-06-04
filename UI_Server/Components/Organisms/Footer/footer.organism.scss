@@ -1,0 +1,106 @@
+.footerContainer{
+    position: relative;
+    display: flex;
+    transition: 0.4s;
+    margin-top: 5rem;
+}
+.contentContainer{
+    transition: 0.4s;
+}
+
+.firstColumnContainer{
+    flex-grow: 6;
+    display: inline-flex;
+    margin-top: 5rem;
+    transition: 0.4s;
+}
+.firstColumnInnerContainer{
+    display: relative;
+}
+.siteNavContainer{
+    display: inline-flex;
+    flex-grow: 6;
+    margin-top: 3rem;
+    transition: 0.4s;
+}
+.smNavContainer{
+    display: block;
+}
+.accountContainer{
+    margin-top: 4rem;
+    display: block;
+}
+
+.copyrightContainer{
+    position: absolute;
+    bottom: 1rem;
+}
+@media only screen and (min-width: 320px){
+    .footerContainer{
+        height: 70rem;
+        background-color: black;
+    }
+    .copyrightContainer{
+        left: 10%;
+        right: 10%;
+    }
+    .accountContainer{
+        margin-left: 0.5rem;
+    }
+}
+
+@media only screen and (min-width: 375px){
+    .smNavContainer{
+        margin-left: 0.5rem;
+    }
+    .accountContainer{
+        margin-left: 1rem;
+    }
+}
+
+@media only screen and (min-width: 425px){
+    
+}
+
+@media only screen and (min-width: 768px){
+    .contentContainer{
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+    .siteNavContainer{
+        margin-left: 3rem;
+    }
+    .footerContainer{
+        height: 40rem;
+    }
+    
+}
+
+@media only screen and (min-width: 1024px){
+    
+    .siteNavContainer{
+        margin-left: 8rem;
+    }
+    .contentContainer{
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+}
+
+@media only screen and (min-width: 1440px){
+    .contentContainer{
+        margin-left: 17rem;
+    }
+    .siteNavContainer{
+        margin-left: 20rem;
+    }
+}
+
+@media only screen and (min-width: 2560px){
+    .contentContainer{
+        margin-left: 39rem;
+    }
+    .siteNavContainer{
+        margin-left: 20rem;
+    }
+}

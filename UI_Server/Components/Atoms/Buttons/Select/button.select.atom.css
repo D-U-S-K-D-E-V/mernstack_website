@@ -1,0 +1,17 @@
+.selectContainer {
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+@media only screen and (min-width: 320px) {
+  .selectElem {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .selectElem {
+    width: 50%;
+  }
+}
+/*# sourceMappingURL=button.select.atom.css.map */

@@ -1,0 +1,40 @@
+.mainBanner{
+    /*Content*/
+    width: 100%;
+
+    object-fit: cover;
+}
+
+@media only screen and (min-width: 320px){
+    .mainBanner{
+        /*Content*/
+        height: 32rem;
+    }
+}
+
+@media only screen and (min-width: 375px){
+
+}
+
+@media only screen and (min-width: 425px){
+
+}
+
+@media only screen and (min-width: 768px){
+
+}
+
+@media only screen and (min-width: 1024px){
+
+}
+
+@media only screen and (min-width: 1440px){
+
+}
+
+@media only screen and (min-width: 2560px){
+    .mainBanner{
+        /*Content*/
+        height: 48rem;
+    }
+}

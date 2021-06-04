@@ -1,0 +1,49 @@
+.bodyContentContainer {
+  margin-bottom: 3rem;
+}
+
+@media only screen and (min-width: 320px) {
+  .bodyContentContainer {
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .bodyContentContainer {
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .bodyContentContainer {
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .bodyContentContainer {
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    margin-left: 18rem;
+    margin-right: 18rem;
+  }
+}
+
+@media only screen and (min-width: 2560px) {
+  .bodyContentContainer {
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    margin-left: 40rem;
+    margin-right: 40rem;
+  }
+}
+/*# sourceMappingURL=introcontent.molecule.css.map */

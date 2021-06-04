@@ -1,0 +1,37 @@
+.buttonContainer {
+  position: relative;
+  margin-top: 1rem;
+}
+
+.sliderItem {
+  width: 100%;
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  scroll-snap-align: start;
+}
+
+.sliderItemContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-scroll-snap-type: x mandatory;
+      scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+.backButtonContainer {
+  position: absolute;
+}
+
+.forwardButtonContainer {
+  position: absolute;
+  right: 0rem;
+}
+
+.sliderContainer {
+  margin-top: 2rem;
+  margin-bottom: 7rem;
+}
+/*# sourceMappingURL=testimonialslider.organism.css.map */

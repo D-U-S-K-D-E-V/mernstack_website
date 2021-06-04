@@ -1,0 +1,47 @@
+.viewContainer {
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  margin-top: 3rem;
+  height: 40rem;
+}
+
+.backButtonContainer {
+  width: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+@media only screen and (min-width: 320px) {
+  .viewContainer {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .viewContainer {
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .viewContainer {
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .viewContainer {
+    margin-left: 18rem;
+    margin-right: 18rem;
+  }
+}
+
+@media only screen and (min-width: 2560px) {
+  .viewContainer {
+    margin-left: 40rem;
+    margin-right: 40rem;
+  }
+}
+/*# sourceMappingURL=account.changepw.view.css.map */

@@ -1,0 +1,112 @@
+.navBarMoleculeContainer {
+  position: relative;
+  height: 3rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  margin-bottom: 0.5rem;
+  background-color: white;
+}
+
+.topBarContainer {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -ms-flex-line-pack: stretch;
+      align-content: stretch;
+}
+
+.navListContainerClosed {
+  position: absolute;
+  overflow: hidden;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  top: 0rem;
+  right: 0rem;
+  width: 0%;
+  padding-bottom: 100%;
+  padding-top: 3rem;
+  z-index: 1;
+  background-color: black;
+}
+
+.navListContainerOpen {
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  position: absolute;
+  padding-bottom: 100%;
+  padding-top: 3rem;
+  padding-left: 1.3rem;
+  top: 0rem;
+  right: 0rem;
+  z-index: 2;
+  background-color: black;
+}
+
+.hamburgerContainerOpen {
+  margin-top: 0.2rem;
+  margin-right: 1rem;
+  padding: 0.5rem;
+  cursor: pointer;
+  z-index: 3;
+}
+
+.hamburgerContainerClosed {
+  margin-top: 0.2rem;
+  margin-right: 1rem;
+  padding: 0.5rem;
+  cursor: pointer;
+  z-index: 3;
+}
+
+@media only screen and (min-width: 320px) {
+  .navListContainerOpen {
+    width: 100%;
+  }
+  .logoContainerClosed {
+    -webkit-box-flex: 10;
+        -ms-flex-positive: 10;
+            flex-grow: 10;
+    margin-left: 1rem;
+    z-index: 3;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+  }
+  .logoContainerOpen {
+    -webkit-box-flex: 10;
+        -ms-flex-positive: 10;
+            flex-grow: 10;
+    margin-left: 1rem;
+    z-index: 3;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .logoContainerOpen {
+    margin-left: 1.2rem;
+  }
+  .logoContainerClosed {
+    margin-left: 1.2rem;
+  }
+  .hamburgerContainer {
+    margin-right: 1.2rem;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .navListContainerOpen {
+    width: 20rem;
+  }
+  .logoContainerOpen {
+    color: black;
+  }
+}
+/*# sourceMappingURL=navbar.molecule.css.map */

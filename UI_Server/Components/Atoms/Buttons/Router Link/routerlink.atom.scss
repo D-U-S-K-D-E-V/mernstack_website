@@ -1,0 +1,16 @@
+.link, .link:hover, .link:visited{
+    color: rgba(120, 184, 206, 100);
+    text-decoration: none;
+}
+.linkContainer{
+    height: 1.75rem;
+    transition: 0.4s;
+    border-bottom-style: solid;
+    border-bottom-color: white;
+    border-bottom-width: 1px;
+}
+
+.linkContainer:hover{
+    transition: 0.4s;
+    border-bottom-color: rgba(120, 184, 206, 100);
+}

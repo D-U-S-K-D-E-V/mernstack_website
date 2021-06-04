@@ -1,0 +1,36 @@
+.selectContainer{
+    transition: 0.4s;
+}
+
+
+@media only screen and (min-width: 320px){
+    .selectElem{
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 375px){
+
+}
+
+@media only screen and (min-width: 425px){
+
+}
+
+@media only screen and (min-width: 768px){
+
+}
+
+@media only screen and (min-width: 1024px){
+    .selectElem{
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: 1440px){
+
+}
+
+@media only screen and (min-width: 2560px){
+
+}

@@ -1,0 +1,127 @@
+/*Open Sans*/
+@font-face {
+  font-family: OpenSans-Light;
+  src: url(../../../../Resources/Fonts/Open_Sans/OpenSans-Light.ttf);
+}
+
+@font-face {
+  font-family: OpenSans-Regular;
+  src: url(../../../../Resources/Fonts/Open_Sans/OpenSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: OpenSans-SemiBold;
+  src: url(../../../../Resources/Fonts/Open_Sans/OpenSans-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: OpenSans-Bold;
+  src: url(../../../../Resources/Fonts/Open_Sans/OpenSans-Bold.ttf);
+}
+
+@font-face {
+  font-family: OpenSans-ExtraBold;
+  src: url(../../../../Resources/Fonts/Open_Sans/OpenSans-ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: Nunito-ExtraLight;
+  src: url(../../../../Resources/Fonts/Nunito_Sans/NunitoSans-ExtraLight.ttf);
+}
+
+@font-face {
+  font-family: Nunito-Light;
+  src: url(../../../../Resources/Fonts/Nunito_Sans/NunitoSans-Light.ttf);
+}
+
+@font-face {
+  font-family: Nunito-Regular;
+  src: url(../../../../Resources/Fonts/Nunito_Sans/NunitoSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: Nunito-SemiBold;
+  src: url(../../../../Resources/Fonts/Nunito_Sans/NunitoSans-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: Extra-Bold;
+  src: url(../../../../Resources/Fonts/Nunito_Sans/NunitoSans-ExtraBold.ttf);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Nunito-Regular;
+  overflow-wrap: break-word;
+  letter-spacing: 0.1rem;
+}
+
+p {
+  font-family: OpenSans-Regular;
+}
+
+.errorContainer {
+  margin-top: 3rem;
+}
+
+.commentTitleContainer {
+  margin-top: 3rem;
+}
+
+.genericContainer {
+  margin-top: 1rem;
+}
+
+.postContainer {
+  margin-top: 3rem;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.postCommentContainer {
+  margin-top: 2rem;
+}
+
+.bodyContent {
+  margin-top: 1.5rem;
+}
+
+.loginHandleElem {
+  display: inline-block;
+  margin-right: 0.25rem;
+}
+
+@media only screen and (min-width: 320px) {
+  .postContainer {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .postContainer {
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .postContainer {
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .postContainer {
+    margin-left: 18rem;
+    margin-right: 18rem;
+  }
+}
+
+@media only screen and (min-width: 2560px) {
+  .postContainer {
+    margin-left: 40rem;
+    margin-right: 40rem;
+  }
+}
+/*# sourceMappingURL=blogpost.template.css.map */

@@ -1,0 +1,1 @@
+export const facebookAPI = 'https://graph.facebook.com/v7.0/thalltv?access_token=EAAEKGEVR42oBAPcZBYeujte4q4aHvAJ6nxOfEG4JDJtlcrHei3bdX6asAUqdbPWIuuAqqjDehUqOPvtrGfKssh2QHZBRPvR28M61805qgKaHG3laciqlZBRPnrLJrWdALyVAZAFwplj9FFRdWFfod1jRvmtBZB7O1EfjNpZBLyuzrC0jNJbHuF&fields=published_posts.limit(5)%7Bid%2Ccreated_time%2Cmessage%2Cfrom%2Cattachments%7Btitle%2Cmedia%7D%7D';

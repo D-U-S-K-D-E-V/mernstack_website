@@ -1,0 +1,10 @@
+.inputElem {
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  border: none;
+  border: solid;
+  border-width: 1px;
+  border-radius: 0.5rem;
+  width: 100%;
+}
+/*# sourceMappingURL=fields.inputreply.atom.css.map */

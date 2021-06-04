@@ -1,0 +1,70 @@
+/*Nunito*/
+@font-face {
+  font-family: Nunito-ExtraLight;
+  src: url(../../../../Resources/Fonts/Nunito_Sans/NunitoSans-ExtraLight.ttf);
+}
+
+@font-face {
+  font-family: Nunito-Light;
+  src: url(../../../../Resources/Fonts/Nunito_Sans/NunitoSans-Light.ttf);
+}
+
+@font-face {
+  font-family: Nunito-Regular;
+  src: url(../../../../Resources/Fonts/Nunito_Sans/NunitoSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: Nunito-SemiBold;
+  src: url(../../../../Resources/Fonts/Nunito_Sans/NunitoSans-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: Nunito-ExtraBold;
+  src: url(../../../../Resources/Fonts/Nunito_Sans/NunitoSans-ExtraBold.ttf);
+}
+
+.navlistContainer {
+  /*Boxes*/
+  /*Color*/
+  background-color: black;
+}
+
+.navlist {
+  /*Boxes*/
+  padding-left: 0rem;
+  padding-right: 0rem;
+}
+
+.navlistItem {
+  /*Text*/
+  font-family: Nunito-Light;
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+  display: block;
+  letter-spacing: 0.25rem;
+  text-transform: uppercase;
+  text-align: left;
+  width: 11rem;
+  text-decoration: none;
+  /*Boxes*/
+  border-bottom: solid;
+  border-bottom-color: black;
+  border-bottom-width: 1px;
+  /*Color*/
+  /*Content*/
+  cursor: pointer;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  list-style: none;
+}
+
+.navlistItem:hover {
+  border-bottom-color: white;
+}
+
+.link, .link:visited, .link:hover {
+  color: white;
+  text-decoration: none;
+}
+/*# sourceMappingURL=button.loginlink.atom.css.map */

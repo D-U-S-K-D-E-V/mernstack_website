@@ -1,0 +1,41 @@
+.regFormContainer {
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  margin-top: 3rem;
+}
+
+@media only screen and (min-width: 320px) {
+  .regFormContainer {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .regFormContainer {
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .regFormContainer {
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .regFormContainer {
+    margin-left: 18rem;
+    margin-right: 18rem;
+  }
+}
+
+@media only screen and (min-width: 2560px) {
+  .regFormContainer {
+    margin-left: 40rem;
+    margin-right: 40rem;
+  }
+}
+/*# sourceMappingURL=registrationform.organism.css.map */

@@ -1,0 +1,98 @@
+.profileContainer{
+    transition: 0.4s;
+    margin-top: 3rem;
+}
+
+.subTitleContainer{
+    transition: 0.4s;
+    margin-top: 5rem;
+}
+
+.listContainer1{
+    transition: 0.4s;
+    border-bottom: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: white;
+    margin-bottom: 1rem;
+    width: 13rem;
+}
+
+.listContainer1:hover{
+    transition: 0.4s;
+    border-bottom-color: black;
+}
+
+.listContainer2{
+    transition: 0.4s;
+    border-bottom: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: white;
+    width: 13rem;
+}
+
+.listContainer2:hover{
+    border-bottom-color: black;
+}
+
+.listItem{
+    color: black;
+    transition: 0.4s;
+}
+.listItem:Hover{
+    transition: 0.4s;
+    color: black;
+    text-decoration: none;
+}
+
+@media only screen and (min-width: 320px){
+    .profileContainer{
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .listContainer2{
+        margin-bottom: 15rem;
+    }
+}
+
+@media only screen and (min-width: 375px){
+
+}
+
+@media only screen and (min-width: 425px){
+
+}
+
+@media only screen and (min-width: 768px){
+    .profileContainer{
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+    .profileContainer{
+        margin-left: 5rem;
+        margin-right: 5rem;
+    }
+}
+
+@media only screen and (min-width: 1440px){
+    .profileContainer{
+        margin-left: 18rem;
+        margin-right: 18rem;
+    }
+}
+
+@media only screen and (min-width: 2560px){
+    .profileContainer{
+        margin-left: 40rem;
+        margin-right: 40rem;
+    }
+    .listContainer1{
+        width: 20rem;
+    }
+    .listContainer2{
+        width: 20rem;
+        margin-bottom: 20rem;
+    }
+}

@@ -1,0 +1,32 @@
+@font-face {
+  font-family: OpenSans-Light;
+  src: url(../../../../Resources/Fonts/Open_Sans/OpenSans-Light.ttf);
+}
+
+@font-face {
+  font-family: OpenSans-Regular;
+  src: url(../../../../Resources/Fonts/Open_Sans/OpenSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: OpenSans-SemiBold;
+  src: url(../../../../Resources/Fonts/Open_Sans/OpenSans-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: OpenSans-Bold;
+  src: url(../../../../Resources/Fonts/Open_Sans/OpenSans-Bold.ttf);
+}
+
+@font-face {
+  font-family: OpenSans-ExtraBold;
+  src: url(../../../../Resources/Fonts/Open_Sans/OpenSans-ExtraBold.ttf);
+}
+
+.text {
+  font-family: OpenSans-Light;
+  color: white;
+  text-transform: capitalize;
+  text-align: center;
+}
+/*# sourceMappingURL=text.duskbranding.css.map */

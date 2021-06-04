@@ -1,0 +1,57 @@
+@font-face{
+    font-family: Nunito-ExtraLight;
+    src: url(../../../../Resources/Fonts/Nunito_Sans/NunitoSans-ExtraLight.ttf)
+}
+@font-face{
+    font-family: Nunito-Light;
+    src: url(../../../../Resources/Fonts/Nunito_Sans/NunitoSans-Light.ttf)
+}
+@font-face{
+    font-family: Nunito-Regular;
+    src: url(../../../../Resources/Fonts/Nunito_Sans/NunitoSans-Regular.ttf)
+}
+@font-face{
+    font-family: Nunito-SemiBold;
+    src: url(../../../../Resources/Fonts/Nunito_Sans/NunitoSans-SemiBold.ttf)
+}
+@font-face{
+    font-family: Nunito-ExtraBold;
+    src: url(../../../../Resources/Fonts/Nunito_Sans/NunitoSans-ExtraBold.ttf)
+}
+
+.fifthTitle{
+    font-family: Nunito-Regular;
+    letter-spacing: 0.1rem;
+    overflow-wrap: break-word;
+}
+
+@media only screen and (min-width: 320px){
+
+}
+
+@media only screen and (min-width: 375px){
+
+}
+
+@media only screen and (min-width: 425px){
+
+}
+
+@media only screen and (min-width: 768px){
+
+}
+
+@media only screen and (min-width: 1024px){
+
+}
+
+@media only screen and (min-width: 1440px){
+
+}
+
+@media only screen and (min-width: 2560px){
+    .fifthTitle{
+        font-size: 2rem;
+        transition: 0.3s;
+    }
+}

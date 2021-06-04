@@ -1,0 +1,93 @@
+.goodClass{
+    transition: 0.4s;
+    border-radius: 1rem;
+    margin-top: 3rem;
+    padding-top: 0.75rem;
+    text-align: center;
+    width: 15rem;
+    height: auto;
+    position: fixed;
+    background-color: rgba(120, 184, 206, 100);
+    opacity: 100%;
+    z-index: 100;
+}
+.badClass{
+    transition: 0.4s;
+    border-radius: 1rem;
+    padding-top: 0.75rem;
+    margin-top: 3rem;
+    text-align: center;
+    width: 15rem;
+    height: auto;
+    position: fixed;
+    background-color: grey;
+    opacity: 100%;
+    z-index: 100;
+}
+.errorClass{
+    transition: 0.4s;
+    border-radius: 1rem;
+    padding-top: 0.75rem;
+    margin-top: 3rem;
+    text-align: center;
+    width: 15rem;
+    height: auto;
+    position: fixed;
+    background-color: yellow;
+    opacity: 100%;
+    z-index: 100;
+}
+.noClass{
+    transition: 0.4s;
+    border-radius: 1rem;
+    padding-top: 0.75rem;
+    margin-top: 2rem;
+    text-align: center;
+    width: 15rem;
+    height: 0rem;
+    position: fixed;
+    background-color: black;
+    opacity: 0%;
+    z-index: 100;
+}
+.goodClass p{
+    color: white;
+}
+
+.badClass p{
+    color: white;
+}
+
+.errorClass p{
+    color: black;
+}
+
+
+
+@media only screen and (min-width: 320px){
+
+}
+
+@media only screen and (min-width: 375px){
+
+}
+
+@media only screen and (min-width: 425px){
+
+}
+
+@media only screen and (min-width: 768px){
+
+}
+
+@media only screen and (min-width: 1024px){
+
+}
+
+@media only screen and (min-width: 1440px){
+  
+}
+
+@media only screen and (min-width: 2560px){
+    
+}

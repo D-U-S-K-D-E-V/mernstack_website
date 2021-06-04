@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,eAAe,CAAA;EACX,KAAK,EAAE,KAAK;CACf",
+    "sources": [
+        "footerlogin.molecule.scss"
+    ],
+    "names": [],
+    "file": "footerlogin.molecule.css"
+}

@@ -1,0 +1,72 @@
+.goodClass {
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  border-radius: 1rem;
+  margin-top: 3rem;
+  padding-top: 0.75rem;
+  text-align: center;
+  width: 15rem;
+  height: auto;
+  position: fixed;
+  background-color: #78b8ce;
+  opacity: 100%;
+  z-index: 100;
+}
+
+.badClass {
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  border-radius: 1rem;
+  padding-top: 0.75rem;
+  margin-top: 3rem;
+  text-align: center;
+  width: 15rem;
+  height: auto;
+  position: fixed;
+  background-color: grey;
+  opacity: 100%;
+  z-index: 100;
+}
+
+.errorClass {
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  border-radius: 1rem;
+  padding-top: 0.75rem;
+  margin-top: 3rem;
+  text-align: center;
+  width: 15rem;
+  height: auto;
+  position: fixed;
+  background-color: yellow;
+  opacity: 100%;
+  z-index: 100;
+}
+
+.noClass {
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  border-radius: 1rem;
+  padding-top: 0.75rem;
+  margin-top: 2rem;
+  text-align: center;
+  width: 15rem;
+  height: 0rem;
+  position: fixed;
+  background-color: black;
+  opacity: 0%;
+  z-index: 100;
+}
+
+.goodClass p {
+  color: white;
+}
+
+.badClass p {
+  color: white;
+}
+
+.errorClass p {
+  color: black;
+}
+/*# sourceMappingURL=notification.molecule.css.map */
