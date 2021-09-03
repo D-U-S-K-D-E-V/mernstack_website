@@ -11,22 +11,17 @@ Servers:
 
 Mail: 
     - Port: 2000
-    - Address: F:\Dusk Design And Development\Clients\Encircle\Development\encircle-app\Mail_Server
 DB: 
     - Port: 3000
-    - Address: F:\Dusk Design And Development\Clients\Encircle\Development\encircle-app\DB_Server
 
 UI: 
     - Port: 4000
-    - Address: F:\Dusk Design And Development\Clients\Encircle\Development\encircle-app\UI_Server
 
 File: 
     - Port: 5000
-    - Address: F:\Dusk Design And Development\Clients\Encircle\Development\encircle-app\File_Server
 
 Socket: 
     - Port: 6000
-    - Address: F:\Dusk Design And Development\Clients\Encircle\Development\encircle-app\Socket_Server
 
 Commands:
 
